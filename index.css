@@ -1,0 +1,120 @@
+/* SHOWCASE */
+
+/* SERVICES */
+.service-title{
+  font-size: 1.4rem;
+}
+
+.service-border{
+  border: 1px solid #d30e2c;
+}
+
+/* PRODUCTS */
+.products__categories_text{
+  background: #d30e2c;
+  color: #fff;
+}
+
+.products__categories__subs a{
+  color: #333;
+}
+
+.products__categories__subs a:hover{
+  color: #d30e2c;
+  border-left: 1px solid #d30e2c;
+  border-right: 1px solid #d30e2c;
+}
+
+.product__infor{
+  width: 100%;
+  height: 0;
+  background: #343a40ad;
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.product__infor p{
+  color: white;
+  font-size: 0.95rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px 35px;
+}
+
+.product:hover .product__infor{
+  height: 100%;
+  cursor: pointer;
+}
+
+
+/* BRANDS SHOW */
+
+.brand__slider{
+  width: 100%;
+  height: 100px;
+}
+
+.brand__slide{
+  height: 100px;
+  animation: brandAnimate 8s linear infinite;
+}
+
+.brand__slide img{
+  height: 100%;
+  padding: 0 30px 0 30px;
+}
+
+@keyframes brandAnimate{
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
+}
+
+/* ARTICLE */
+
+#news .container-fluid{
+  background: #eeeeee;
+}
+
+.news__content a{
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.news__content a:hover{
+  color: #d30e2c;
+}
+
+/* GUIDE SHOWS */
+.guide__inner{
+  cursor: pointer;
+}
+
+.guide__inner:hover .guide__text{
+  width: 92%;
+  height: 100%;
+}
+
+.guide__text{
+  width: 0;
+  height: 100%;
+  background: #ca5d67a6;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+
+.guide__text p{
+  color: white;
+  font-size: 2rem;
+  border: 6px solid white;
+  padding: 10px 30px;
+}

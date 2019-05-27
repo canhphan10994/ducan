@@ -1,0 +1,196 @@
+/* THIS IS GLOBAL STYLE */
+body{
+  background: white;
+}
+
+body ul{
+  list-style: none!important;
+}
+
+body a{
+  text-decoration: none!important;
+}
+
+body a:hover{
+  color: #d30e2c;
+}
+
+.primary-color{
+  color: #d30e2c;
+}
+
+.text-color{
+  color: #333;
+}
+
+.row{
+  text-align: left;
+}
+
+.general-background{
+  background: #eeeeee;
+}
+
+.custom-bg-primary{
+  background: #d30e2c;
+  color: white;
+}
+
+.title-size{
+  font-size: 2rem;
+}
+
+.text-infor{
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+/* HEADER */
+
+header a:hover{
+  color: white;
+}
+
+#brands a:hover{
+  color: #d30e2c;
+}
+
+.header__top{
+  background: #d30e2c;
+  color: #fff;
+}
+
+.services__list a{
+  color: #eeeeee;
+}
+
+.socials__list a{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.brands__text{
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.header__search form{
+  width: 140%;
+  box-shadow: 0;
+}
+
+.form-control:focus{
+  border-color: #d30e2c;
+  box-shadow: 0 0 5px #d30e2c !important
+}
+
+.toggle__head:hover{
+  color: white;
+}
+
+#carts a{
+  font-size: 1.7rem;
+}
+
+/* NAVBAR */
+
+.nav__menu{
+  background: white;
+}
+
+.toggle a{
+  color: #fff;
+  background: #d30e2c;
+}
+
+.toggle__list{
+  background: #eeeeee;
+  transform: none!important;
+  width: 100%;
+  background: #fff;
+}
+
+.toggle__list a{
+  background: none;
+  color: #333;
+}
+
+.toggle__head{
+  font-size: 1.2rem;
+}
+
+.nav__list a{
+  color: #333;
+}
+
+#navbar a:hover{
+  color: #d30e2c;
+}
+
+
+
+
+/* NEWSLETTER */
+#newsletter .container-fluid{
+  background: #eeeeee;
+}
+
+.newsletter__reg i{
+  font-size: 4rem;
+}
+
+.newsletter__mail form{
+  width: 150%;
+}
+
+.newsletter__desribe__head{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #666;
+  margin: 0;
+}
+
+.newsletter__desribe__head{
+  color: #888;
+}
+
+.descr__lead{
+  font-size: 1.2rem;
+}
+
+.company__name{
+  font-size: 1.1rem;
+}
+
+.company__contact__infor p{
+  margin: 0;
+}
+
+.infor__item{
+  margin: 5px 0;
+  font-size: 0.8rem;
+}
+
+.infor__item a{
+  color: #333;
+}
+
+.infor__item a:hover{
+  color: #d30e2c;
+}
+
+.infor__item a span{
+  color: #d30e2c;
+}
+
+/* FOOTER */
+.footer__area{
+  background: #313848;
+  color: #fff;
+}
+
+/* MAPS */
+
+#map{
+  height: 20rem;
+}
