@@ -15,16 +15,16 @@ $(document).ready(function() {
   let navBar = $('#navbar ul li');
   for (let item of navBar) {
     if (item.innerText == 'Giới thiệu') {
-      $(item.firstElementChild).attr('href', '../html/reviews.html');
+      $(item.firstElementChild).attr('href', 'html/reviews.html');
     }
     if (item.innerText == 'Tin tức') {
-      $(item.firstElementChild).attr('href', '../html/news.html');
+      $(item.firstElementChild).attr('href', 'html/news.html');
     }
     if (item.innerText == 'Khuyến mãi') {
-      $(item.firstElementChild).attr('href', '../html/news.html');
+      $(item.firstElementChild).attr('href', 'html/news.html');
     }
     if (item.innerText == 'Liên Hệ') {
-      $(item.firstElementChild).attr('href', '../html/contact.html');
+      $(item.firstElementChild).attr('href', 'html/contact.html');
     }
   }
 
