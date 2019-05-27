@@ -10,6 +10,8 @@ $(document).ready(function() {
   for (let item of menuList) {
     $(item.firstElementChild).attr('href', 'productlist.html');
   }
+  
+  
 
   // NAVBAR
   let navBar = $('#navbar ul li');
@@ -27,6 +29,9 @@ $(document).ready(function() {
       $(item.firstElementChild).attr('href', 'contact.html');
     }
   }
+  
+  //NEW
+  $('.new__inner .new__title').attr('href', 'newdetail.html');
 
   // Product
   $('.product').click( () =>{
